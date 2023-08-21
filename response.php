@@ -10,6 +10,9 @@
     <title>response Get</title>
 </head>
 <body>
+    <h4>
+        original 
+    </h4>
     <h1>
         <?php
             echo $paragraph;
@@ -17,7 +20,9 @@
             echo strlen($paragraph);
         ?>
     </h1>
-    <br>
+    <h4>
+        censored
+    </h4>
     <h2>
         <?php
             echo str_replace($cencoredWord,'***',$paragraph);
